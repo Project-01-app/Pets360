@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Proyecto1</string>
+    <!-- Error messages -->
+    <string name="ErrorMsgAdd">Error when adding the data</string>
+    <string name="ErrorMsgUpdate">Error when updating the data\\</string>
+    <string name="ErrorMsgRemove">Error when removing the data</string>
+    <string name="ErrorMsgGetAll">Error when getting all data</string>
+    <string name="ErrorMsgGetById">Error when trying to get the specific data</string>
+    <string name="MsgDataNotFound">The data was not found</string>
+    <!-- Login -->
+    <string name="login_title">Sign In</string>
+    <string name="Username">username</string>
+    <string name="Password">password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="login_button">Login</string>
+    <string name="signup_link">Sign Up</string>
+    <!-- Pet List -->
+    <string name="pet_list_title">Pets List</string>
+    <string name="add_pet_button">Add Pet</string>
+    <!-- Pet Profile -->
+    <string name="pet_profile_title">Pet Profile</string>
+    <string name="appointment_history">Appointment History</string>
+    <string name="add_appointment_button">Add Appointment</string>
+    <!-- Calendar -->
+    <string name="calendar_title">Appointment Calendar</string>
+    <string name="appointment_date">MM/DD/YYYY</string>
+    <string name="appointment_description">Appointment Description</string>
+    <string name="save_appointment_button">Save Appointment</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <!-- Add Pet -->
+    <string name="add_pet_title">Add Pet</string>
+    <string name="name">Name</string>
+    <string name="species">Species</string>
+    <string name="breed">Breed</string>
+    <string name="picture">Picture</string>
+    <string name="save_pet_button">Save Pet</string>
+
+
+</resources>

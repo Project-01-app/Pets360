@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pet_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_list_title"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/add_pet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_pet_button"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="398dp"
+        android:layout_height="287dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto1</string>
+    <string name="ErrorMsgAdd">Error al agregar el dato</string>
+    <string name="ErrorMsgUpdate">Error al modificar los datos</string>
+    <string name="ErrorMsgRemove">Error al eliminar los datos</string>
+    <string name="ErrorMsgGetAll">Error al obtener la lista de los datos</string>
+    <string name="ErrorMsgGetById">Error al obtener el dato especifico</string>
+    <string name="MsgDataNotFound">El dato no fue encontrado</string>
+    <string name="login_title">Inicio Sesion</string>
+    <string name="Username">Nombre Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="forgot_password">" ¿Olvidaste tu contraseña?"</string>
+    <string name="login_button">Iniciar sesion</string>
+    <string name="signup_link">Registrarse</string>
+    <string name="pet_list_title">Lista de mascotas</string>
+    <string name="add_pet_button">Agregar mascota</string>
+    <string name="pet_profile_title">Perfil mascota</string>
+    <string name="appointment_history">Historial de citas</string>
+    <string name="add_appointment_button">Agregar cita</string>
+    <string name="calendar_title">Calendario de citas</string>
+    <string name="appointment_date">MM/DD/YYYY</string>
+    <string name="appointment_description">Descripcion de la cita</string>
+    <string name="save_appointment_button">Guardar cita</string>
+    <string name="upcoming_events">Lista de eventos actualizada</string>
+    <string name="add_pet_title">Agregar Mascota</string>
+    <string name="name">Nombre</string>
+    <string name="species">Especie</string>
+    <string name="breed">Raza</string>
+    <string name="picture">Imagen</string>
+    <string name="save_pet_button">Guardar Mascota</string>
+</resources>
