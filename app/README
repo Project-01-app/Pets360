@@ -1,0 +1,27 @@
+PetCare Tracker is a mobile application developed in Kotlin using Android Studio, created as part of Task 3 and 4
+for a university-level mobile development course. The project focuses on managing pet information through a clean,
+git add README.md
+git commit -m "Added README with project description"
+git push origin task3-Pets360
+modular interface and includes all required academic features.
+
+ What Was Implemented
+This app was built from scratch and includes:
+
+Layout Design: Custom XML layouts were created for each screen, including the main list, pet registration form, detail view, and photo preview. Each layout was designed to ensure clarity, responsiveness, and usability.
+
+String Management: All user-facing text was defined in strings.xml to support localization and maintain consistency across the app.
+
+CRUD Functionality: Users can create, view, update, and delete pet records using Room Database for local persistence.
+
+Search Feature: A dynamic search bar filters pets by name in real time.
+
+Multimedia Integration: Users can take photos with the camera or select images from the gallery to associate with each pet.
+
+Navigation Component: Seamless transitions between fragments were implemented using Android’s Navigation architecture.
+
+Dialog Confirmations: Sensitive actions like deletions are confirmed through alert dialogs to prevent accidental loss.
+
+Modular Code Structure: The app follows a clean architecture with separate packages for data, UI, and logic.
+
+Documentation and Version Control: Weekly progress was tracked via Git commits and Pull Requests, with clear documentation of each feature.

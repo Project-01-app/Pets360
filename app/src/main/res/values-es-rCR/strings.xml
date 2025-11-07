@@ -29,4 +29,11 @@
     <string name="breed">Raza</string>
     <string name="picture">Imagen</string>
     <string name="save_pet_button">Guardar Mascota</string>
+    <string name="MsgDuplicateDate">Mascota ya existente</string>
+    <string name="MsgSaveSuccess">Mascota guardada correctamente</string>
+    <string name="MsgDeleteSuccess">Mascota Eliminada correctamente</string>
+    <string name="TextSaveActionQuestion">¿Quieres guardar esta Mascota?</string>
+    <string name="TextDeleteActionQuestion">¿Quieres eliminar esta Mascota?</string>
+    <string name="desc_select_date">Seleccione el dia de cita</string>
+    <string name="desc_search_pet">Buscar Mascota por ID</string>
 </resources>

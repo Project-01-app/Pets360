@@ -34,6 +34,14 @@
     <string name="breed">Breed</string>
     <string name="picture">Picture</string>
     <string name="save_pet_button">Save Pet</string>
+    <!-- Add Pet: missing strings -->
+    <string name="MsgDuplicateDate">Pet already exists</string>
+    <string name="MsgSaveSuccess">Pet saved successfully</string>
+    <string name="MsgDeleteSuccess">Pet deleted successfully</string>
+    <string name="TextSaveActionQuestion">Do you want to save this pet?</string>
+    <string name="TextDeleteActionQuestion">Do you want to delete this pet?</string>
+    <string name="desc_select_date">Select pet date</string>
+    <string name="desc_search_pet">Search pet by ID</string>
 
 
 </resources>
