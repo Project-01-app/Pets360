@@ -29,7 +29,7 @@
                 android:text="@string/name" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/txtname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -48,7 +48,7 @@
                 android:text="@string/species" />
 
             <EditText
-                android:id="@+id/editTextText4"
+                android:id="@+id/txtspecies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -68,7 +68,7 @@
                 android:text="@string/breed" />
 
             <EditText
-                android:id="@+id/editTextText5"
+                android:id="@+id/txtbreed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -99,7 +99,7 @@
     </TableLayout>
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imgpet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="129dp"
