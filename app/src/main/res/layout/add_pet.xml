@@ -9,79 +9,55 @@
         android:layout_width="408dp"
         android:layout_height="305dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="248dp">
+        tools:layout_editor_absoluteY="232dp">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/name" />
-
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/txtname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:hint="@string/name"
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/species"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/species" />
-
             <EditText
-                android:id="@+id/editTextText4"
+                android:id="@+id/txtspecies"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:hint="@string/species"
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/breed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/breed" />
-
             <EditText
-                android:id="@+id/editTextText5"
+                android:id="@+id/txtbreed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:hint="@string/breed"
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/picture" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imgpet"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="167dp"
                 tools:srcCompat="@tools:sample/avatars" />
 
         </TableRow>
@@ -93,8 +69,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/save_pet_button"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="573dp" />
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="569dp" />
 
     <TextView
         android:id="@+id/add_pet_title"

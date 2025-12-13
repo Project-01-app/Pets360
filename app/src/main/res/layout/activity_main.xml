@@ -2,78 +2,67 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TableLayout
+
         android:id="@+id/tableLayout"
         android:layout_width="407dp"
         android:layout_height="117dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="319dp">
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="407dp">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
-            <TextView
-                android:id="@+id/Username"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Username" />
 
             <EditText
                 android:id="@+id/editTextText2"
-                android:layout_width="wrap_content"
+                android:layout_width="279dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:gravity="center"
+                android:hint="@string/Username"
+                android:inputType="text" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/Password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Password" />
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <EditText
                 android:id="@+id/editTextText3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:ems="10"
+                android:gravity="center"
                 android:inputType="text"
-                android:text="Name" />
+                android:text="@string/Password" />
 
         </TableRow>
 
     </TableLayout>
 
-    <TextView
-        android:id="@+id/login_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_title"
-        tools:layout_editor_absoluteX="341dp"
-        tools:layout_editor_absoluteY="290dp" />
-
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="181dp"
+        android:layout_height="52dp"
         android:text="@string/login_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726" />
+        app:layout_constraintVertical_bias="0.823" />
 
     <TextView
         android:id="@+id/signup_link"
@@ -81,14 +70,14 @@
         android:layout_height="wrap_content"
         android:text="@string/signup_link"
         tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="558dp" />
+        tools:layout_editor_absoluteY="620dp" />
 
     <TextView
         android:id="@+id/forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/forgot_password"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="436dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="524dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.poject.proyecto1.R
 import java.time.LocalDate
 import java.util.Calendar
 
@@ -31,19 +32,23 @@ class PetActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pet)
+        setContentView(R.layout.add_pet)
 
         petController = PetController(this)
 
-        txtId = findViewById(R.id.txtId_pet)
-        txtName = findViewById(R.id.txtName_pet)
-        txtSpecies = findViewById(R.id.txtSpecies_pet)
-        txtBreed = findViewById(R.id.txtBreed_pet)
-        txtHistory = findViewById(R.id.txtHistory_pet)
-        txtAppointment = findViewById(R.id.txtAppointment_pet)
-        lbDate = findViewById(R.id.lbDate_pet)
+        //txtId = findViewById(R.id.txtId_pet)
+        txtName = findViewById(R.id.txtname)
+        txtSpecies = findViewById(R.id.txtspecies)
+        txtBreed = findViewById(R.id.txtbreed)
+        //txtHistory = findViewById(R.id.txtHistory_pet)
+        //txtAppointment = findViewById(R.id.txtAppointment_pet)
+        //lbDate = findViewById(R.id.lbDate_pet)
 
         resetDate()
+        val btnSave = findViewById<Button>(R.id.save_pet_button)
+        btnSave.setOnClickListener {
+            savePet()
+        }
 
         findViewById<ImageButton>(R.id.btnSelectDate_pet).setOnClickListener {
             showDatePickerDialog()
